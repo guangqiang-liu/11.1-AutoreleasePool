@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C3AC2F723F951D7004C7B9D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AC2F623F951D7004C7B9D /* Dog.m */; };
 		9C76F0CF22CE2F6200FFD5BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76F0CE22CE2F6200FFD5BC /* AppDelegate.m */; };
 		9C76F0D222CE2F6200FFD5BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76F0D122CE2F6200FFD5BC /* ViewController.m */; };
 		9C76F0D522CE2F6200FFD5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C76F0D322CE2F6200FFD5BC /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		9C76F0DD22CE2F6200FFD5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76F0DC22CE2F6200FFD5BC /* main.m */; };
 		9C76F0E722CE2F6300FFD5BC /* autoreleasepool____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76F0E622CE2F6300FFD5BC /* autoreleasepool____Tests.m */; };
 		9C76F0F222CE2F6300FFD5BC /* autoreleasepool____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76F0F122CE2F6300FFD5BC /* autoreleasepool____UITests.m */; };
+		9C76F10122CE2F7A00FFD5BC /* XXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76F10022CE2F7A00FFD5BC /* XXPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C3AC2F523F951D7004C7B9D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9C3AC2F623F951D7004C7B9D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		9C76F0CA22CE2F6200FFD5BC /* autoreleasepool底层原理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "autoreleasepool底层原理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C76F0CD22CE2F6200FFD5BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C76F0CE22CE2F6200FFD5BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		9C76F0ED22CE2F6300FFD5BC /* autoreleasepool底层原理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "autoreleasepool底层原理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C76F0F122CE2F6300FFD5BC /* autoreleasepool____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "autoreleasepool____UITests.m"; sourceTree = "<group>"; };
 		9C76F0F322CE2F6300FFD5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C76F0FF22CE2F7A00FFD5BC /* XXPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXPerson.h; sourceTree = "<group>"; };
+		9C76F10022CE2F7A00FFD5BC /* XXPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXPerson.m; sourceTree = "<group>"; };
+		9C76F10422CF28B400FFD5BC /* ViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewController.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				9C76F0CE22CE2F6200FFD5BC /* AppDelegate.m */,
 				9C76F0D022CE2F6200FFD5BC /* ViewController.h */,
 				9C76F0D122CE2F6200FFD5BC /* ViewController.m */,
+				9C76F0FF22CE2F7A00FFD5BC /* XXPerson.h */,
+				9C76F10022CE2F7A00FFD5BC /* XXPerson.m */,
+				9C3AC2F523F951D7004C7B9D /* Dog.h */,
+				9C3AC2F623F951D7004C7B9D /* Dog.m */,
+				9C76F10422CF28B400FFD5BC /* ViewController.cpp */,
 				9C76F0D322CE2F6200FFD5BC /* Main.storyboard */,
 				9C76F0D622CE2F6200FFD5BC /* Assets.xcassets */,
 				9C76F0D822CE2F6200FFD5BC /* LaunchScreen.storyboard */,
@@ -262,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C76F10122CE2F7A00FFD5BC /* XXPerson.m in Sources */,
 				9C76F0D222CE2F6200FFD5BC /* ViewController.m in Sources */,
+				9C3AC2F723F951D7004C7B9D /* Dog.m in Sources */,
 				9C76F0DD22CE2F6200FFD5BC /* main.m in Sources */,
 				9C76F0CF22CE2F6200FFD5BC /* AppDelegate.m in Sources */,
 			);
@@ -435,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "autoreleasepool底层原理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "autoreleasepool底层原理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
